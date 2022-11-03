@@ -23,6 +23,8 @@ export default function Body() {
           alt="google-logo"
           width="300"
           height="100"
+          quality="75"
+          priority
         />
         <div className="flex w-full mt-5 mx-auto max-w-[90%] border border-gray-200 hover:shadow-lg focus-within:shadow-lg rounded-full px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
           <MagnifyingGlassIcon className="h-5 text-gray-500 mr-3" />
@@ -31,7 +33,6 @@ export default function Body() {
             type="text"
             autoFocus
             className="flex-grow focus:outline outline-none"
-            quality="75"
           />
           <MicrophoneIcon className="h-5" />
         </div>
