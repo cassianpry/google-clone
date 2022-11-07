@@ -1,6 +1,6 @@
 const nextConfig = {
   reactStrictMode: true,
-  pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts', 'mockData.js'],
+  pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts', 'data.js'],
   images: {
     remotePatterns: [
       {

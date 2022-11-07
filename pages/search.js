@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import ImageResults from '../components/ImageResults';
 import SearchHeader from '../components/SearchHeader';
 import SearchResults from '../components/SearchResults';
-import Response from './mockData';
+import Response from './mock.data';
 
 export default function Search({ results }) {
   console.log(results);
