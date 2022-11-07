@@ -27,13 +27,17 @@ SECRET=qualquer coisa
 
 \*obs: todas as informações acima são obtidas no [https://cloud.google.com/]
 
--Após preencher corretamente as informações necessárias
+-Após preencher corretamente as informações necessárias:
 
 ```bash
 npm run dev
 # or
 yarn dev
 ```
+
+## Em pages/search.js
+
+-Alterar mockData para false para utilizar a Custom Search API
 
 ## Live Demo
 
