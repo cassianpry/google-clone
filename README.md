@@ -15,12 +15,15 @@ yarn install
 
 ## Variáveis de ambiente
 
--Criar um arquivo chamado [.env.local] e colocar as seguintes variáveis:
+-Criar um arquivo chamado .env.local e colocar as seguintes variáveis:
+
+```bash
 GOOGLE_CLIENT_ID
 GOOGLE_CLIENT_SECRET
 API_KEY
 CONTEXT_KEY
 SECRET=qualquer coisa
+```
 
 \*obs: todas as informações acima são obtidas no [https://cloud.google.com/]
 
