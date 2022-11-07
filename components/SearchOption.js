@@ -16,8 +16,8 @@ export default function SearchOption({ title, Icon, selected }) {
         selected && 'text-blue-500 border-blue-500'
       }`}
     >
-      <Icon className="h-4"></Icon>
-      <p>{title}</p>
+      <Icon className="h-4" />
+      <p>{title[0].toUpperCase() + title.substring(1)}</p>
     </div>
   );
 }

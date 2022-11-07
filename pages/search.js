@@ -1,17 +1,21 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import SearchHeader from '../components/SearchHeader';
+import SearchResults from '../components/SearchResults';
 import mock from './mockData';
 
 export default function Search({ results }) {
   console.log(results);
+  const router = useRouter();
   return (
     <div>
       <Head>
-        <title>Search Page</title>
+        <title>{router.query.term} - Search Page</title>
       </Head>
       {/* Search Header */}
       <SearchHeader />
       {/* Search Results */}
+      <SearchResults results={mock} />
     </div>
   );
 }

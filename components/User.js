@@ -5,7 +5,7 @@ export default function User({ className }) {
   const { data: session } = useSession();
   if (session) {
     return (
-      <div>
+      <>
         <Image
           className={`rounded-full hover:bg-gray-200 cursor-pointer p-1 ${className}`}
           src={session.user.image}
@@ -17,7 +17,7 @@ export default function User({ className }) {
           priority
           as="link"
         />
-      </div>
+      </>
     );
   }
 

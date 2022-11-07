@@ -8,7 +8,7 @@ export default function SearchHeaderOption() {
   return (
     <div className="flex space-x-8 select-none w-full justify-center text-sm text-gray-700 lg:pl-52 lg:justify-start border-b">
       <SearchOption
-        title="all"
+        title="All"
         Icon={MagnifyingGlassIcon}
         selected={router.query.searchType === '' || !router}
       />
